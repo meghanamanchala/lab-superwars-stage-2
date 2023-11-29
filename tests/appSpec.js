@@ -14,7 +14,8 @@ describe("Creating players", function () {
     from given array of players", function () {
     let players = initPlayers(TEST_PLAYERS);
 
-    expect(typeof players[0]).toBe('object');
+   expect(typeof players[0]).toBe('object');
+   
   });
 
   it("should create equal number of players for \
